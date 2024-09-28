@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    user-select: none;
+
+}
+body{
+    background-color: black;
+        padding:0px;
+       margin:0px;
+       width:100%;
+       
+}
+h1{
+    color:orange;
+    text-align: center;
+    font-size: 2.7rem;
+}
+.toggle{
+    font-size: 1.1rem;
+    height: 3rem;
+    width: 7.5rem;
+    background-color: rgba(15, 177, 241, 0.59);
+    color: orange;
+    margin-left: 10rem;
+    border-radius: 10%;
+    border-top: 2px solid orange;
+    border-left: 2px solid orange;
+
+}
+.toggle:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 34rem;
+    width: 21rem;
+    background-color: black;
+    border-radius: 5%;
+    border: 2px solid orange;
+    margin-top: 1rem;
+    box-shadow: 5px 5px 5px rgba(48, 47, 47, 0.823);
+}
+
+.input{
+    height: 3rem;
+    width: 21rem;
+    background-color: black;
+    border-radius: 40%;
+    padding-top: 0.5rem;
+
+    border: none;
+}
+
+.user{
+    height: 4.5rem;
+    width: 20rem;
+    position: relative;
+    left: 0.35rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5%;
+    font-size: 3rem;
+    text-align: right;
+    flex: 1;
+
+}
+.answer{
+    height: 3rem;
+    width: 20rem;
+    position: relative;
+    left: 0.35rem;
+    top: 0.9rem;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5%;
+    font-size: 1.5rem;
+     text-align: right;
+    flex: 1;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 3rem;
+}
+
+.button{
+    height: 3.8rem;
+    width: 4.5rem;
+    background-color: rgba(48, 47, 47, 0.823);
+    border-radius: 20%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.8rem;
+}
+
+.button1{
+        height: 3.8rem;
+        width: 4.5rem;
+        background-color:white;
+        border-radius: 20%;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        font-size: 1.8rem;
+        
+    }
+.button2{
+        height: 3.8rem;
+        width: 4.5rem;
+        background-color: rgb(208, 142, 19);
+        border-radius: 20%;
+        cursor: pointer;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.8rem;
+    }
+.button3{
+        height: 3.8rem;
+        width: 8.5rem;
+        background-color: rgb(208, 142, 19);
+        border-radius: 15%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.8rem;
+}
+
+.button:hover{
+    opacity: 0.7;
+}
+
+.button1:hover{
+    opacity: 0.7;
+}
+.button2:hover{
+    opacity: 0.7;
+}
+.button3:hover{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.content:hover{
+    border:2px solid rgb(15, 177, 241);
+}
+
+.button:hover{
+    cursor: pointer;
+}
